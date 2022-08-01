@@ -27,7 +27,7 @@ def get_number():
 #pairs_of_numbers(result)
 
 '''
-Решение не нашел.
+Решение не нашел. Так выдаёт ошибку, а в чем причина, я сам разобраться не смог.
 '''
 nums = get_number()
 mult_list = list(lambda nums: (nums[i] * nums[-i-1] for i in range(math.ceil(len(nums)/2)))) 
